@@ -1,0 +1,78 @@
+*{
+   margin: 0%;
+   padding: 0%;
+
+}
+.main{
+    background-image: url(img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    margin-top: 0px;
+}
+.logofront{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-size: 130px;
+    background-image: url(logo.webp);
+    background-repeat: no-repeat;
+    margin-top: 27%;
+    margin-left: 87%;   
+}
+.cover_content{
+    position: absolute;
+    width: 25%;
+    color: white;
+    margin-top: 12%;
+    margin-left: 10%;
+    font-family: Arial;
+    text-align: justify;
+}
+.btn{
+    border-color:#891626;
+    color: white;
+    background-color: #891626;
+    font-size: 15px;
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 12%;
+    height: 6%;
+}
+.shape{
+    position: absolute;
+    margin: 0%;
+    background-color: #891626;
+    width: 100%;
+    height: 60px;
+}
+.shape_text{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30%;
+    color: white;
+    font-family: Arial;
+}
+.gallery_text{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 4%;
+    color: #891626;
+    font-family: arial;
+    font-size: 35px;
+}
+.gallery{
+    position: absolute;
+    color: #891626;
+    margin-top: 10%;
+    margin-left: 4%;
+    display: flex;
+    gap: 20px;
+}
+.gallery img{
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    border: 2px solid #891626;
+}
